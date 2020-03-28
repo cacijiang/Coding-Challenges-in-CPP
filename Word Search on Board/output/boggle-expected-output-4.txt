@@ -1,0 +1,81 @@
+Welcome to CS 106B Boggle!
+This game is a search for words on a 2-D board of letter cubes.
+The good news is that you might improve your vocabulary a bit.
+The bad news is that you're probably going to lose miserably to
+this little dictionary-toting hunk of silicon.
+If only YOU had 16 gigs of RAM!
+
+Press Enter to begin the game ...
+
+Generate a random board? Y
+RSET
+AIFC
+EBDI
+HIAY
+
+It's your turn!
+Your words: {}
+Your score: 0
+Type a word (or Enter to stop):
+
+It's my turn!
+My words: {"ABAS", "ABASE", "AIRS", "ARID", "ARISE", "ARSE", "BARS", "BASE", "BASIDIA", "BEAR", "BEARS", "BIAS", "BIFID", "BIRSE", "BISE", "BISECT", "CEIBA", "CEIBAS", "DIABASE", "DICE", "DICES", "DIES", "DIET", "EARS", "EASE", "FIAR", "FIARS", "FICE", "FICES", "FIRS", "HEAR", "HEARS", "HEARSE", "HEIR", "HEIRS", "IBIS", "ICES", "RABID", "RABIES", "RAID", "RAISE", "RASE", "RIAS", "RIES", "RIFE", "RIFS", "RIFT", "RISE", "SABE", "SABIR", "SAID", "SARI", "SECT", "SEIF", "SIFT"}
+My score: 85
+Ha ha ha, I destroyed you. Better luck next time, puny human!
+
+Play again? Y
+
+Generate a random board? Y
+UTEI
+LSIQ
+LOGY
+HJAF
+
+It's your turn!
+Your words: {}
+Your score: 0
+Type a word (or Enter to stop):
+
+It's my turn!
+My words: {"AGIO", "AGIOS", "AGIST", "FAGS", "GAOL", "GAOLS", "GIES", "GIST", "HOAGIE", "HOAGIES", "HOAGY", "HOGS", "HOISE", "HOIST", "HOLS", "HOLT", "HOLTS", "HOSE", "HOST", "JAGS", "JOGS", "JOIST", "JOLT", "JOLTS", "LOAF", "LOGIEST", "LOGS", "LOGY", "LOSE", "LOST", "LUST", "LUTE", "LUTES", "SITE", "SLOG", "SLUT", "SOJA", "SOLUTE", "STULL", "TIES", "UTIES", "YAGI", "YAGIS"}
+My score: 68
+Ha ha ha, I destroyed you. Better luck next time, puny human!
+
+Play again? Y
+
+Generate a random board? Y
+SCZS
+TTGH
+EAVV
+NWBU
+
+It's your turn!
+Your words: {}
+Your score: 0
+Type a word (or Enter to stop):
+
+It's my turn!
+My words: {"ANEW", "BAGS", "BANE", "BATE", "BATS", "BATT", "BATTEN", "BATTS", "EATS", "GAEN", "GANE", "GATE", "GATS", "NAGS", "NEAT", "NEATS", "NETS", "NETT", "NETTS", "STAB", "STAG", "STAGS", "STANE", "STAT", "STATE", "STAW", "STET", "STEW", "TABU", "TAGS", "TATE", "TATS", "TEAT", "TEATS", "TETS", "VANE", "VATS", "WAGS", "WANE", "WATS", "WATT", "WATTS", "WEAN", "WETS"}
+My score: 54
+Ha ha ha, I destroyed you. Better luck next time, puny human!
+
+Play again? Y
+
+Generate a random board? Y
+XEWS
+RLBU
+ESEN
+DUHF
+
+It's your turn!
+Your words: {}
+Your score: 0
+Type a word (or Enter to stop):
+
+It's my turn!
+My words: {"BELS", "BLED", "BLEW", "DELE", "DELES", "DELS", "DERE", "DUEL", "DUELER", "DUELERS", "DUELS", "DUES", "ELSE", "FEHS", "FEUD", "FEUDS", "FEUED", "FEUS", "HEBE", "HUED", "HUES", "LEBEN", "LEUD", "LEUDES", "LEUDS", "NEBS", "NUBS", "REBEL", "REBELS", "REBS", "REBUS", "REDS", "RESH", "REUSE", "SERE", "SLED", "SLEW", "SLEWS", "SUBER", "SUBERS", "SUBS", "SUBSERE", "SUED", "SUER", "SUES", "UNBE", "USED", "USER", "WEBS", "WELSH", "WERE"}
+My score: 79
+Ha ha ha, I destroyed you. Better luck next time, puny human!
+
+Play again? N
+Have a nice day.

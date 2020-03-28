@@ -1,0 +1,54 @@
+Welcome to CS 106B Boggle!
+This game is a search for words on a 2-D board of letter cubes.
+The good news is that you might improve your vocabulary a bit.
+The bad news is that you're probably going to lose miserably to
+this little dictionary-toting hunk of silicon.
+If only YOU had 16 gigs of RAM!
+
+Press Enter to begin the game ...
+
+Generate a random board? N
+Type the 16 letters on the board: fycliOMGorilhjhu
+FYCL
+IOMG
+ORIL
+HJHU
+
+It's your turn!
+Your words: {}
+Your score: 0
+Type a word (or Enter to stop): foil
+You found a new word! "FOIL"
+
+Your words: {"FOIL"}
+Your score: 1
+Type a word (or Enter to stop): fad
+The word must have at least 4 letters.
+Type a word (or Enter to stop): Foobar
+That word is not found in the dictionary.
+Type a word (or Enter to stop): FORM
+You found a new word! "FORM"
+
+Your words: {"FOIL", "FORM"}
+Your score: 2
+Type a word (or Enter to stop): Roomy
+You found a new word! "ROOMY"
+
+Your words: {"FOIL", "FORM", "ROOMY"}
+Your score: 4
+Type a word (or Enter to stop): FOIL
+You have already found that word.
+Type a word (or Enter to stop): rOOm
+You found a new word! "ROOM"
+
+Your words: {"FOIL", "FORM", "ROOM", "ROOMY"}
+Your score: 5
+Type a word (or Enter to stop):
+
+It's my turn!
+My words: {"COIF", "COIL", "COIR", "CORM", "FIRM", "GIRO", "GLIM", "HOOF", "IGLU", "LIMO", "LIMY", "MIRI", "MOIL", "MOOR", "RIMY", "ROIL", "ROOF"}
+My score: 17
+Ha ha ha, I destroyed you. Better luck next time, puny human!
+
+Play again? N
+Have a nice day.

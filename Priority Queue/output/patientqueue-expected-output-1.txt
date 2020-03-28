@@ -1,0 +1,136 @@
+CS 106B Hospital Patient Check-in System
+========================================
+Process the minimum priority patients first (Y/N)? y
+
+Current patient queue:
+{}  (size=0) (empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Anat
+Priority? 4
+
+Current patient queue:
+{Anat (4)}  (size=1) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Ben
+Priority? 9
+
+Current patient queue:
+{Anat (4), Ben (9)}  (size=2) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? E
+Name? Sasha
+Priority? 8
+
+Current patient queue:
+{Anat (4), Ben (9), Sasha (8)}  (size=3) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Wu
+Priority? 7
+
+Current patient queue:
+{Anat (4), Wu (7), Sasha (8), Ben (9)}  (size=4) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Rein
+Priority? 6
+
+Current patient queue:
+{Anat (4), Rein (6), Sasha (8), Ben (9), Wu (7)}  (size=5) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? E
+Name? Ford
+Priority? 2
+
+Current patient queue:
+{Ford (2), Rein (6), Anat (4), Ben (9), Wu (7), Sasha (8)}  (size=6) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Ford" with priority 2
+
+Current patient queue:
+{Ford (2), Rein (6), Anat (4), Ben (9), Wu (7), Sasha (8)}  (size=6) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Wu
+New priority? 4
+
+Current patient queue:
+{Ford (2), Wu (4), Anat (4), Ben (9), Rein (6), Sasha (8)}  (size=6) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Sasha
+New priority? 3
+
+Current patient queue:
+{Ford (2), Wu (4), Sasha (3), Ben (9), Rein (6), Anat (4)}  (size=6) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Ford
+New priority? 5
+
+Current patient queue:
+{Sasha (3), Wu (4), Anat (4), Ben (9), Rein (6), Ford (5)}  (size=6) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Wu
+New priority? 5
+
+Current patient queue:
+{Sasha (3), Wu (5), Anat (4), Ben (9), Rein (6), Ford (5)}  (size=6) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Sasha" with priority 3
+
+Current patient queue:
+{Sasha (3), Wu (5), Anat (4), Ben (9), Rein (6), Ford (5)}  (size=6) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Sasha"
+
+Current patient queue:
+{Anat (4), Wu (5), Ford (5), Ben (9), Rein (6)}  (size=5) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Anat"
+
+Current patient queue:
+{Ford (5), Wu (5), Rein (6), Ben (9)}  (size=4) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Ford" with priority 5
+
+Current patient queue:
+{Ford (5), Wu (5), Rein (6), Ben (9)}  (size=4) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Ford"
+
+Current patient queue:
+{Wu (5), Ben (9), Rein (6)}  (size=3) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Wu"
+
+Current patient queue:
+{Rein (6), Ben (9)}  (size=2) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Rein"
+
+Current patient queue:
+{Ben (9)}  (size=1) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Ben"
+
+Current patient queue:
+{}  (size=0) (empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Cindy
+Priority? 5
+
+Current patient queue:
+{Cindy (5)}  (size=1) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? E
+Name? Logan
+Priority? 10
+
+Current patient queue:
+{Cindy (5), Logan (10)}  (size=2) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Elise
+Priority? 1
+
+Current patient queue:
+{Elise (1), Logan (10), Cindy (5)}  (size=3) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? l
+
+Current patient queue:
+{}  (size=0) (empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? q
+
+Exiting.

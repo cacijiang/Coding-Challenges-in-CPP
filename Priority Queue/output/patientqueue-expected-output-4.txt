@@ -1,0 +1,159 @@
+CS 106B Hospital Patient Check-in System
+========================================
+Process the minimum priority patients first (Y/N)? n
+
+Current patient queue:
+{}  (size=0) (empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Mehran
+Priority? 99
+
+Current patient queue:
+{Mehran (99)}  (size=1) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Cynthia
+Priority? 99
+
+Current patient queue:
+{Mehran (99), Cynthia (99)}  (size=2) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Jerry
+Priority? 99
+
+Current patient queue:
+{Mehran (99), Cynthia (99), Jerry (99)}  (size=3) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Nick
+Priority? 99
+
+Current patient queue:
+{Nick (99), Mehran (99), Jerry (99), Cynthia (99)}  (size=4) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Lisa
+Priority? 99
+
+Current patient queue:
+{Nick (99), Mehran (99), Jerry (99), Cynthia (99), Lisa (99)}  (size=5) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Patrick
+Priority? 99
+
+Current patient queue:
+{Patrick (99), Mehran (99), Nick (99), Cynthia (99), Lisa (99), Jerry (99)}  (size=6) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Keith
+Priority? 99
+
+Current patient queue:
+{Patrick (99), Mehran (99), Nick (99), Cynthia (99), Lisa (99), Jerry (99), Keith (99)}  (size=7) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Julie
+Priority? 99
+
+Current patient queue:
+{Patrick (99), Mehran (99), Nick (99), Julie (99), Lisa (99), Jerry (99), Keith (99), Cynthia (99)}  (size=8) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Mary
+Priority? 99
+
+Current patient queue:
+{Patrick (99), Mehran (99), Nick (99), Mary (99), Lisa (99), Jerry (99), Keith (99), Cynthia (99), Julie (99)}  (size=9) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Kate
+Priority? 99
+
+Current patient queue:
+{Patrick (99), Mehran (99), Nick (99), Mary (99), Lisa (99), Jerry (99), Keith (99), Cynthia (99), Julie (99), Kate (99)}  (size=10) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Cynthia
+New priority? 22
+
+Current patient queue:
+{Patrick (99), Mehran (99), Nick (99), Mary (99), Lisa (99), Jerry (99), Keith (99), Cynthia (22), Julie (99), Kate (99)}  (size=10) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Lisa
+New priority? 33
+
+Current patient queue:
+{Patrick (99), Mehran (99), Nick (99), Mary (99), Kate (99), Jerry (99), Keith (99), Cynthia (22), Julie (99), Lisa (33)}  (size=10) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Keith
+New priority? 44
+
+Current patient queue:
+{Patrick (99), Mehran (99), Nick (99), Mary (99), Kate (99), Jerry (99), Keith (44), Cynthia (22), Julie (99), Lisa (33)}  (size=10) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Mary
+New priority? -33
+
+Current patient queue:
+{Patrick (99), Mehran (99), Nick (99), Julie (99), Kate (99), Jerry (99), Keith (44), Cynthia (22), Mary (-33), Lisa (33)}  (size=10) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Kate
+New priority? 9999
+
+Current patient queue:
+{Kate (9999), Patrick (99), Nick (99), Julie (99), Mehran (99), Jerry (99), Keith (44), Cynthia (22), Mary (-33), Lisa (33)}  (size=10) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Julie
+New priority? 200
+
+Current patient queue:
+{Kate (9999), Julie (200), Nick (99), Patrick (99), Mehran (99), Jerry (99), Keith (44), Cynthia (22), Mary (-33), Lisa (33)}  (size=10) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Kate"
+
+Current patient queue:
+{Julie (200), Patrick (99), Nick (99), Lisa (33), Mehran (99), Jerry (99), Keith (44), Cynthia (22), Mary (-33)}  (size=9) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Julie"
+
+Current patient queue:
+{Patrick (99), Mehran (99), Nick (99), Lisa (33), Mary (-33), Jerry (99), Keith (44), Cynthia (22)}  (size=8) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Patrick"
+
+Current patient queue:
+{Nick (99), Mehran (99), Jerry (99), Lisa (33), Mary (-33), Cynthia (22), Keith (44)}  (size=7) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Nick"
+
+Current patient queue:
+{Mehran (99), Keith (44), Jerry (99), Lisa (33), Mary (-33), Cynthia (22)}  (size=6) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Mehran"
+
+Current patient queue:
+{Jerry (99), Keith (44), Cynthia (22), Lisa (33), Mary (-33)}  (size=5) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Jerry"
+
+Current patient queue:
+{Keith (44), Lisa (33), Cynthia (22), Mary (-33)}  (size=4) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Keith"
+
+Current patient queue:
+{Lisa (33), Mary (-33), Cynthia (22)}  (size=3) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Lisa"
+
+Current patient queue:
+{Cynthia (22), Mary (-33)}  (size=2) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Cynthia"
+
+Current patient queue:
+{Mary (-33)}  (size=1) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Mary"
+
+Current patient queue:
+{}  (size=0) (empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? l
+
+Current patient queue:
+{}  (size=0) (empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? q
+
+Exiting.

@@ -1,0 +1,135 @@
+Welcome to CS 106B/X Shrink-It!
+This program uses the Huffman coding algorithm for compression.
+Any type of file can be encoded using a Huffman code.
+Decompressing the result will faithfully reproduce the original.
+The compression achieved can be substantial for large files of 
+homogenous content. (Smaller, heterogenous files see less/no benefit.)
+
+MAIN MENU
+1) test build character frequency table
+2) test build encoding tree
+3) test build encoding map
+4) test flatten/recreate encoding tree header
+
+C) compress file
+D) decompress file
+
+H) view contents of huffman file
+T) view contents of text file
+S) side-by-side file comparison
+Q) quit
+
+Your choice? 1
+Read from a s)tring or f)ile? s
+Type the string to process: happy hip hop
+Building frequency table ...
+ ' ' (Ascii  32) =>       2
+ 'a' (Ascii  97) =>       1
+ 'h' (Ascii 104) =>       3
+ 'i' (Ascii 105) =>       1
+ 'o' (Ascii 111) =>       1
+ 'p' (Ascii 112) =>       4
+ 'y' (Ascii 121) =>       1
+
+MAIN MENU
+1) test build character frequency table
+2) test build encoding tree
+3) test build encoding map
+4) test flatten/recreate encoding tree header
+
+C) compress file
+D) decompress file
+
+H) view contents of huffman file
+T) view contents of text file
+S) side-by-side file comparison
+Q) quit
+
+Your choice? 2
+Building encoding tree ...
+    {leaf,  'p' (Ascii 112)}
+  {interior}
+        {leaf,  'o' (Ascii 111)}
+      {interior}
+        {leaf,  'y' (Ascii 121)}
+    {interior}
+        {leaf,  'a' (Ascii  97)}
+      {interior}
+        {leaf,  'i' (Ascii 105)}
+{interior}
+    {leaf,  'h' (Ascii 104)}
+  {interior}
+    {leaf,  ' ' (Ascii  32)}
+
+MAIN MENU
+1) test build character frequency table
+2) test build encoding tree
+3) test build encoding map
+4) test flatten/recreate encoding tree header
+
+C) compress file
+D) decompress file
+
+H) view contents of huffman file
+T) view contents of text file
+S) side-by-side file comparison
+Q) quit
+
+Your choice? 3
+Building encoding map ...
+ ' ' (Ascii  32)  => 00
+ 'a' (Ascii  97)  => 1001
+ 'h' (Ascii 104)  => 01
+ 'i' (Ascii 105)  => 1000
+ 'o' (Ascii 111)  => 1011
+ 'p' (Ascii 112)  => 11
+ 'y' (Ascii 121)  => 1010
+
+MAIN MENU
+1) test build character frequency table
+2) test build encoding tree
+3) test build encoding map
+4) test flatten/recreate encoding tree header
+
+C) compress file
+D) decompress file
+
+H) view contents of huffman file
+T) view contents of text file
+S) side-by-side file comparison
+Q) quit
+
+Your choice? 4
+Encoding tree flattened to header string: ((. .h)(((.i.a)(.y.o)).p))
+Copy of encoding tree recreated from header string: 
+    {leaf,  'p' (Ascii 112)}
+  {interior}
+        {leaf,  'o' (Ascii 111)}
+      {interior}
+        {leaf,  'y' (Ascii 121)}
+    {interior}
+        {leaf,  'a' (Ascii  97)}
+      {interior}
+        {leaf,  'i' (Ascii 105)}
+{interior}
+    {leaf,  'h' (Ascii 104)}
+  {interior}
+    {leaf,  ' ' (Ascii  32)}
+Freeing memory for copy of encoding tree.
+
+MAIN MENU
+1) test build character frequency table
+2) test build encoding tree
+3) test build encoding map
+4) test flatten/recreate encoding tree header
+
+C) compress file
+D) decompress file
+
+H) view contents of huffman file
+T) view contents of text file
+S) side-by-side file comparison
+Q) quit
+
+Your choice? q
+Exiting.

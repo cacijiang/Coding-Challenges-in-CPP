@@ -1,0 +1,102 @@
+Welcome to CS 106B/X Shrink-It!
+This program uses the Huffman coding algorithm for compression.
+Any type of file can be encoded using a Huffman code.
+Decompressing the result will faithfully reproduce the original.
+The compression achieved can be substantial for large files of 
+homogenous content. (Smaller, heterogenous files see less/no benefit.)
+
+MAIN MENU
+1) test build character frequency table
+2) test build encoding tree
+3) test build encoding map
+4) test flatten/recreate encoding tree header
+
+C) compress file
+D) decompress file
+
+H) view contents of huffman file
+T) view contents of text file
+S) side-by-side file comparison
+Q) quit
+
+Your choice? C
+Input file name: seuss.txt
+Output file name (Enter for seuss.txt.huf): 
+seuss.txt.huf already exists. Overwrite? (y/n) y
+Reading 3273 input bytes.
+Compressing ...
+Wrote 1775 compressed bytes.
+
+MAIN MENU
+1) test build character frequency table
+2) test build encoding tree
+3) test build encoding map
+4) test flatten/recreate encoding tree header
+
+C) compress file
+D) decompress file
+
+H) view contents of huffman file
+T) view contents of text file
+S) side-by-side file comparison
+Q) quit
+
+Your choice? D
+Input file name: seuss.txt.huf
+Output file name (Enter for unhuf.seuss.txt): 
+unhuf.seuss.txt already exists. Overwrite? (y/n) y
+Reading 1775 input bytes.
+Decompressing ...
+Wrote 3273 decompressed bytes.
+
+MAIN MENU
+1) test build character frequency table
+2) test build encoding tree
+3) test build encoding map
+4) test flatten/recreate encoding tree header
+
+C) compress file
+D) decompress file
+
+H) view contents of huffman file
+T) view contents of text file
+S) side-by-side file comparison
+Q) quit
+
+Your choice? S
+First file name: seuss.txt
+Second file name (Enter for unhuf.seuss.txt): 
+Files seuss.txt and unhuf.seuss.txt match!
+
+MAIN MENU
+1) test build character frequency table
+2) test build encoding tree
+3) test build encoding map
+4) test flatten/recreate encoding tree header
+
+C) compress file
+D) decompress file
+
+H) view contents of huffman file
+T) view contents of text file
+S) side-by-side file comparison
+Q) quit
+
+Your choice? 
+
+MAIN MENU
+1) test build character frequency table
+2) test build encoding tree
+3) test build encoding map
+4) test flatten/recreate encoding tree header
+
+C) compress file
+D) decompress file
+
+H) view contents of huffman file
+T) view contents of text file
+S) side-by-side file comparison
+Q) quit
+
+Your choice? q
+Exiting.

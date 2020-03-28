@@ -1,0 +1,93 @@
+Welcome to CS 106B Mad Libs!
+I will ask you to provide various words
+and phrases to fill in a story.
+At the end, I will display your story to you.
+
+Mad Lib input file? university.txt
+
+Please type an adjective: pretty
+Please type a plural noun: water bottles
+Please type a plural noun: oranges
+Please type a plural noun: laptops
+Please type an adjective: bright red
+Please type an adjective: awesome
+Please type a plural noun: paperclips
+Please type a number: 7
+Please type a noun: couch
+Please type a plural noun: earrings
+Please type an adjective: dark
+Please type a job title: executive assistant
+Please type a job title: personal trainer
+Please type a noun: pinky toe
+Please type a plural noun: twigs
+Please type an adjective: plastic
+
+Your Mad Lib story:
+Our American universities offer students many pretty
+courses that will prepare them to become professional water bottles.
+You can get a degree as a Bachelor of oranges or take a
+regular liberal laptops course. Or, if you want to become
+a true bright red engineer, you can study awesome mathematics
+and differential paperclips. Then, after 7 years, if
+you want to continue your studies you can write your couch and
+become a Doctor of earrings.
+
+When you get out into the dark world, if you have a diploma
+from a university, you will be able to get the job of executive assistant easily,
+or perhaps even personal trainer. If you don't have a diploma, you may have to settle
+for the job title of "pinky toe".
+
+Remember, it's important that you study hard in high school so you are able
+to do well on your college entrance twigs. It is true that "a little
+learning is a very plastic thing."
+
+16 placeholder(s) replaced.
+Do another Mad Lib (Y/N)? YES!!!!
+Mad Lib input file? oooooooooops.txt
+Unable to open that file.  Try again.
+Mad Lib input file? marty.txt
+
+Please type an age: 45
+Please type an adjective: evil
+Please type an actor or actress: Will Smith
+Please type an emotion: terror
+Please type a body part: eyelid
+Please type an articles of clothing: socks
+Please type an adjective: arrogant
+Please type a city: Sunnyvale
+Please type a political group: Libertarians
+Please type an adjective: stinky
+Please type an emotion: joy
+Please type a number: 9999999
+Please type a person's name: Drake
+Please type a place: Five Guys Burgers
+Please type a job title: ballerina
+Please type an adjective: crafty
+Please type an area of study: basket weaving
+
+Your Mad Lib story:
+Ever since he was 45, Marty has dreamed of being as evil
+as his idol, Will Smith. He thinks with great terror
+about having such picture-perfect eyelid(s) every day.
+It's no wonder he buys his socks similar to
+the one(s) seen in their films.
+
+But he still looks way too arrogant that way, according to
+most people in Sunnyvale. In fact, the Libertarians have
+filed several complaints about this stinky behavior. Someone
+should break the news to him, but the risk of making him feel
+joy is far too great. It could ruin his status as
+the 9999999'th highest rated teacher in town.
+(The highest-rated is, of course, Drake.)
+
+Did you also know that Marty also spends most of his time
+at Five Guys Burgers? Perhaps he's hoping to be a ballerina
+when he grows up. It's a shame he will never reach
+such a/an crafty position after having majored
+in the field of basket weaving.
+
+17 placeholder(s) replaced.
+Do another Mad Lib (Y/N)? NO!
+
+Mad Lib stories you created: 2
+Total placeholders replaced: 33 (16.5 per story)

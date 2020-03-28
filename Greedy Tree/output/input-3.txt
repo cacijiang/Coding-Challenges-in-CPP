@@ -1,0 +1,13 @@
+C
+seuss.txt
+
+y
+D
+seuss.txt.huf
+
+y
+S
+seuss.txt
+
+
+q

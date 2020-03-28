@@ -1,0 +1,79 @@
+Welcome to CS 106B Mad Libs!
+I will ask you to provide various words
+and phrases to fill in a story.
+At the end, I will display your story to you.
+
+Mad Lib input file? bad.txt
+Unable to open that file.  Try again.
+Mad Lib input file? What are you talking about??
+Unable to open that file.  Try again.
+Mad Lib input file? wannabe.txt
+
+Please type a job: ballerina
+Please type an adjective: smelly
+
+Your Mad Lib story:
+I wannabe a ballerina when I grow up.
+Just like my mom and dad.
+Life is smelly like that!
+
+2 placeholder(s) replaced.
+Do another Mad Lib (Y/N)? ok
+Please type a word that starts with 'Y' or 'N'.
+Do another Mad Lib (Y/N)? huh?
+Please type a word that starts with 'Y' or 'N'.
+Do another Mad Lib (Y/N)? y
+Mad Lib input file? oops this file is not found.txt
+Unable to open that file.  Try again.
+Mad Lib input file? clothing.txt
+
+Please type a Male Name: Justin Bieber
+Please type an adjective: sleepy
+Please type a CITY: Timbuktu
+Please type an adjective: lazy
+Please type an adjective: pudgy
+Please type a plural noun: spleens
+Please type a plural noun: bazookas
+Please type a plural noun: Star Wars action figures
+Please type a plural noun: toilets
+Please type a Color!: pink
+Please type an adjective: greasy
+Please type an Exciting adjective: itchy
+Please type a plural noun: laptops
+Please type an Interesting Adjective: mediocre
+Please type a verb: explode
+
+Your Mad Lib story:
+Justin Bieber has announced that his sleepy
+clothing store in the heart of downtown Timbuktu is having
+the most lazy sale of all merchandise, including
+pudgy suits and slightly irregular spleens
+available. Men's knit bazookas, only $15.99.
+Hand-woven Italian Star Wars action figures, 1/2-price. Double-
+breasted cashmere toilets, $50.00. Genuine imported
+pink greasy shoes, itchy handerchiefs,
+and women's embroidered laptops, all at rock-bottom prices.
+This is a chance to get some really mediocre bargains.
+Act now before these deals explode!
+
+15 placeholder(s) replaced.
+Do another Mad Lib (Y/N)? y
+Mad Lib input file? wannabe.txt
+
+Please type a job: Stanford student
+Please type an adjective: Stanfordy
+
+Your Mad Lib story:
+I wannabe a Stanford student when I grow up.
+Just like my mom and dad.
+Life is Stanfordy like that!
+
+2 placeholder(s) replaced.
+Do another Mad Lib (Y/N)? I dunno
+Please type a word that starts with 'Y' or 'N'.
+Do another Mad Lib (Y/N)? maybe
+Please type a word that starts with 'Y' or 'N'.
+Do another Mad Lib (Y/N)? n
+
+Mad Lib stories you created: 3
+Total placeholders replaced: 19 (6.3 per story)

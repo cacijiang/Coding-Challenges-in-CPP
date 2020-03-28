@@ -1,0 +1,391 @@
+CS 106B Hospital Patient Check-in System
+========================================
+Process the minimum priority patients first (Y/N)? y
+
+Current patient queue:
+{}  (size=0) (empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? JonSnow
+Priority? 50
+
+Current patient queue:
+{JonSnow (50)}  (size=1) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Cersei
+Priority? 20
+
+Current patient queue:
+{Cersei (20), JonSnow (50)}  (size=2) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? E
+Name? Hodor
+Priority? 30
+
+Current patient queue:
+{Cersei (20), JonSnow (50), Hodor (30)}  (size=3) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Sansa
+Priority? 70
+
+Current patient queue:
+{Cersei (20), JonSnow (50), Hodor (30), Sansa (70)}  (size=4) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Ned
+Priority? 50
+
+Current patient queue:
+{Cersei (20), JonSnow (50), Hodor (30), Sansa (70), Ned (50)}  (size=5) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? E
+Name? Tyrion
+Priority? 22
+
+Current patient queue:
+{Cersei (20), JonSnow (50), Tyrion (22), Sansa (70), Ned (50), Hodor (30)}  (size=6) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? E
+Name? Hound
+Priority? 90
+
+Current patient queue:
+{Cersei (20), JonSnow (50), Tyrion (22), Sansa (70), Ned (50), Hodor (30), Hound (90)}  (size=7) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Brienne
+Priority? 40
+
+Current patient queue:
+{Cersei (20), Brienne (40), Tyrion (22), JonSnow (50), Ned (50), Hodor (30), Hound (90), Sansa (70)}  (size=8) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Jamie
+Priority? 100
+
+Current patient queue:
+{Cersei (20), Brienne (40), Tyrion (22), JonSnow (50), Ned (50), Hodor (30), Hound (90), Sansa (70), Jamie (100)}  (size=9) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? E
+Name? Arya
+Priority? 25
+
+Current patient queue:
+{Cersei (20), Arya (25), Tyrion (22), JonSnow (50), Brienne (40), Hodor (30), Hound (90), Sansa (70), Jamie (100), Ned (50)}  (size=10) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Bran
+Priority? 60
+
+Current patient queue:
+{Cersei (20), Arya (25), Tyrion (22), JonSnow (50), Brienne (40), Hodor (30), Hound (90), Sansa (70), Jamie (100), Ned (50), Bran (60)}  (size=11) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? E
+Name? Tormund
+Priority? 75
+
+Current patient queue:
+{Cersei (20), Arya (25), Tyrion (22), JonSnow (50), Brienne (40), Hodor (30), Hound (90), Sansa (70), Jamie (100), Ned (50), Bran (60), Tormund (75)}  (size=12) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Qyburn
+Priority? 56
+
+Current patient queue:
+{Cersei (20), Arya (25), Tyrion (22), JonSnow (50), Brienne (40), Hodor (30), Hound (90), Sansa (70), Jamie (100), Ned (50), Bran (60), Tormund (75), Qyburn (56)}  (size=13) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? E
+Name? Sam
+Priority? 88
+
+Current patient queue:
+{Cersei (20), Arya (25), Tyrion (22), JonSnow (50), Brienne (40), Hodor (30), Sam (88), Sansa (70), Jamie (100), Ned (50), Bran (60), Tormund (75), Qyburn (56), Hound (90)}  (size=14) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Tywin
+Priority? 30
+
+Current patient queue:
+{Cersei (20), Arya (25), Tyrion (22), JonSnow (50), Brienne (40), Hodor (30), Tywin (30), Sansa (70), Jamie (100), Ned (50), Bran (60), Tormund (75), Qyburn (56), Hound (90), Sam (88)}  (size=15) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? E
+Name? Joffrey
+Priority? 38
+
+Current patient queue:
+{Cersei (20), Arya (25), Tyrion (22), Joffrey (38), Brienne (40), Hodor (30), Tywin (30), JonSnow (50), Jamie (100), Ned (50), Bran (60), Tormund (75), Qyburn (56), Hound (90), Sam (88), Sansa (70)}  (size=16) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Oberyn
+Priority? 69
+
+Current patient queue:
+{Cersei (20), Arya (25), Tyrion (22), Joffrey (38), Brienne (40), Hodor (30), Tywin (30), JonSnow (50), Jamie (100), Ned (50), Bran (60), Tormund (75), Qyburn (56), Hound (90), Sam (88), Sansa (70), Oberyn (69)}  (size=17) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Cersei" with priority 20
+
+Current patient queue:
+{Cersei (20), Arya (25), Tyrion (22), Joffrey (38), Brienne (40), Hodor (30), Tywin (30), JonSnow (50), Jamie (100), Ned (50), Bran (60), Tormund (75), Qyburn (56), Hound (90), Sam (88), Sansa (70), Oberyn (69)}  (size=17) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Sansa
+New priority? 60
+
+Current patient queue:
+{Cersei (20), Arya (25), Tyrion (22), Joffrey (38), Brienne (40), Hodor (30), Tywin (30), JonSnow (50), Jamie (100), Ned (50), Bran (60), Tormund (75), Qyburn (56), Hound (90), Sam (88), Sansa (60), Oberyn (69)}  (size=17) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Hound
+New priority? 30
+
+Current patient queue:
+{Cersei (20), Arya (25), Tyrion (22), Joffrey (38), Brienne (40), Hodor (30), Hound (30), JonSnow (50), Jamie (100), Ned (50), Bran (60), Tormund (75), Qyburn (56), Tywin (30), Sam (88), Sansa (60), Oberyn (69)}  (size=17) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Sam
+New priority? 21
+
+Current patient queue:
+{Cersei (20), Arya (25), Sam (21), Joffrey (38), Brienne (40), Hodor (30), Tyrion (22), JonSnow (50), Jamie (100), Ned (50), Bran (60), Tormund (75), Qyburn (56), Tywin (30), Hound (30), Sansa (60), Oberyn (69)}  (size=17) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Ned
+New priority? 15
+
+Current patient queue:
+{Ned (15), Cersei (20), Sam (21), Joffrey (38), Arya (25), Hodor (30), Tyrion (22), JonSnow (50), Jamie (100), Brienne (40), Bran (60), Tormund (75), Qyburn (56), Tywin (30), Hound (30), Sansa (60), Oberyn (69)}  (size=17) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Ned" with priority 15
+
+Current patient queue:
+{Ned (15), Cersei (20), Sam (21), Joffrey (38), Arya (25), Hodor (30), Tyrion (22), JonSnow (50), Jamie (100), Brienne (40), Bran (60), Tormund (75), Qyburn (56), Tywin (30), Hound (30), Sansa (60), Oberyn (69)}  (size=17) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Joffrey
+New priority? 5
+
+Current patient queue:
+{Joffrey (5), Ned (15), Sam (21), Cersei (20), Arya (25), Hodor (30), Tyrion (22), JonSnow (50), Jamie (100), Brienne (40), Bran (60), Tormund (75), Qyburn (56), Tywin (30), Hound (30), Sansa (60), Oberyn (69)}  (size=17) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? c
+Name? Qyburn
+New priority? 7
+
+Current patient queue:
+{Joffrey (5), Ned (15), Qyburn (7), Cersei (20), Arya (25), Sam (21), Tyrion (22), JonSnow (50), Jamie (100), Brienne (40), Bran (60), Tormund (75), Hodor (30), Tywin (30), Hound (30), Sansa (60), Oberyn (69)}  (size=17) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Catelyn
+Priority? 45
+
+Current patient queue:
+{Joffrey (5), Ned (15), Qyburn (7), Cersei (20), Arya (25), Sam (21), Tyrion (22), JonSnow (50), Catelyn (45), Brienne (40), Bran (60), Tormund (75), Hodor (30), Tywin (30), Hound (30), Sansa (60), Oberyn (69), Jamie (100)}  (size=18) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? NightKing
+Priority? 38
+
+Current patient queue:
+{Joffrey (5), Ned (15), Qyburn (7), Cersei (20), Arya (25), Sam (21), Tyrion (22), JonSnow (50), NightKing (38), Brienne (40), Bran (60), Tormund (75), Hodor (30), Tywin (30), Hound (30), Sansa (60), Oberyn (69), Jamie (100), Catelyn (45)}  (size=19) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Drogon
+Priority? 50
+
+Current patient queue:
+{Joffrey (5), Ned (15), Qyburn (7), Cersei (20), Arya (25), Sam (21), Tyrion (22), JonSnow (50), NightKing (38), Brienne (40), Bran (60), Tormund (75), Hodor (30), Tywin (30), Hound (30), Sansa (60), Oberyn (69), Jamie (100), Catelyn (45), Drogon (50)}  (size=20) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? e
+Name? Pycelle
+Priority? 80
+
+Current patient queue:
+{Joffrey (5), Ned (15), Qyburn (7), Cersei (20), Arya (25), Sam (21), Tyrion (22), JonSnow (50), NightKing (38), Brienne (40), Bran (60), Tormund (75), Hodor (30), Tywin (30), Hound (30), Sansa (60), Oberyn (69), Jamie (100), Catelyn (45), Drogon (50), Pycelle (80)}  (size=21) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Joffrey" with priority 5
+
+Current patient queue:
+{Joffrey (5), Ned (15), Qyburn (7), Cersei (20), Arya (25), Sam (21), Tyrion (22), JonSnow (50), NightKing (38), Brienne (40), Bran (60), Tormund (75), Hodor (30), Tywin (30), Hound (30), Sansa (60), Oberyn (69), Jamie (100), Catelyn (45), Drogon (50), Pycelle (80)}  (size=21) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Joffrey"
+
+Current patient queue:
+{Qyburn (7), Ned (15), Sam (21), Cersei (20), Arya (25), Hodor (30), Tyrion (22), JonSnow (50), NightKing (38), Brienne (40), Bran (60), Tormund (75), Pycelle (80), Tywin (30), Hound (30), Sansa (60), Oberyn (69), Jamie (100), Catelyn (45), Drogon (50)}  (size=20) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Qyburn" with priority 7
+
+Current patient queue:
+{Qyburn (7), Ned (15), Sam (21), Cersei (20), Arya (25), Hodor (30), Tyrion (22), JonSnow (50), NightKing (38), Brienne (40), Bran (60), Tormund (75), Pycelle (80), Tywin (30), Hound (30), Sansa (60), Oberyn (69), Jamie (100), Catelyn (45), Drogon (50)}  (size=20) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Qyburn"
+
+Current patient queue:
+{Ned (15), Cersei (20), Sam (21), NightKing (38), Arya (25), Hodor (30), Tyrion (22), JonSnow (50), Catelyn (45), Brienne (40), Bran (60), Tormund (75), Pycelle (80), Tywin (30), Hound (30), Sansa (60), Oberyn (69), Jamie (100), Drogon (50)}  (size=19) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Ned" with priority 15
+
+Current patient queue:
+{Ned (15), Cersei (20), Sam (21), NightKing (38), Arya (25), Hodor (30), Tyrion (22), JonSnow (50), Catelyn (45), Brienne (40), Bran (60), Tormund (75), Pycelle (80), Tywin (30), Hound (30), Sansa (60), Oberyn (69), Jamie (100), Drogon (50)}  (size=19) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Ned"
+
+Current patient queue:
+{Cersei (20), Arya (25), Sam (21), NightKing (38), Brienne (40), Hodor (30), Tyrion (22), JonSnow (50), Catelyn (45), Drogon (50), Bran (60), Tormund (75), Pycelle (80), Tywin (30), Hound (30), Sansa (60), Oberyn (69), Jamie (100)}  (size=18) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Cersei" with priority 20
+
+Current patient queue:
+{Cersei (20), Arya (25), Sam (21), NightKing (38), Brienne (40), Hodor (30), Tyrion (22), JonSnow (50), Catelyn (45), Drogon (50), Bran (60), Tormund (75), Pycelle (80), Tywin (30), Hound (30), Sansa (60), Oberyn (69), Jamie (100)}  (size=18) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Cersei"
+
+Current patient queue:
+{Sam (21), Arya (25), Tyrion (22), NightKing (38), Brienne (40), Hodor (30), Hound (30), JonSnow (50), Catelyn (45), Drogon (50), Bran (60), Tormund (75), Pycelle (80), Tywin (30), Jamie (100), Sansa (60), Oberyn (69)}  (size=17) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Sam" with priority 21
+
+Current patient queue:
+{Sam (21), Arya (25), Tyrion (22), NightKing (38), Brienne (40), Hodor (30), Hound (30), JonSnow (50), Catelyn (45), Drogon (50), Bran (60), Tormund (75), Pycelle (80), Tywin (30), Jamie (100), Sansa (60), Oberyn (69)}  (size=17) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Sam"
+
+Current patient queue:
+{Tyrion (22), Arya (25), Hodor (30), NightKing (38), Brienne (40), Oberyn (69), Hound (30), JonSnow (50), Catelyn (45), Drogon (50), Bran (60), Tormund (75), Pycelle (80), Tywin (30), Jamie (100), Sansa (60)}  (size=16) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Tyrion" with priority 22
+
+Current patient queue:
+{Tyrion (22), Arya (25), Hodor (30), NightKing (38), Brienne (40), Oberyn (69), Hound (30), JonSnow (50), Catelyn (45), Drogon (50), Bran (60), Tormund (75), Pycelle (80), Tywin (30), Jamie (100), Sansa (60)}  (size=16) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Tyrion"
+
+Current patient queue:
+{Arya (25), NightKing (38), Hodor (30), Catelyn (45), Brienne (40), Oberyn (69), Hound (30), JonSnow (50), Sansa (60), Drogon (50), Bran (60), Tormund (75), Pycelle (80), Tywin (30), Jamie (100)}  (size=15) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Arya" with priority 25
+
+Current patient queue:
+{Arya (25), NightKing (38), Hodor (30), Catelyn (45), Brienne (40), Oberyn (69), Hound (30), JonSnow (50), Sansa (60), Drogon (50), Bran (60), Tormund (75), Pycelle (80), Tywin (30), Jamie (100)}  (size=15) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Arya"
+
+Current patient queue:
+{Hodor (30), NightKing (38), Hound (30), Catelyn (45), Brienne (40), Oberyn (69), Tywin (30), JonSnow (50), Sansa (60), Drogon (50), Bran (60), Tormund (75), Pycelle (80), Jamie (100)}  (size=14) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Hodor" with priority 30
+
+Current patient queue:
+{Hodor (30), NightKing (38), Hound (30), Catelyn (45), Brienne (40), Oberyn (69), Tywin (30), JonSnow (50), Sansa (60), Drogon (50), Bran (60), Tormund (75), Pycelle (80), Jamie (100)}  (size=14) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Hodor"
+
+Current patient queue:
+{Hound (30), NightKing (38), Tywin (30), Catelyn (45), Brienne (40), Oberyn (69), Jamie (100), JonSnow (50), Sansa (60), Drogon (50), Bran (60), Tormund (75), Pycelle (80)}  (size=13) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Hound" with priority 30
+
+Current patient queue:
+{Hound (30), NightKing (38), Tywin (30), Catelyn (45), Brienne (40), Oberyn (69), Jamie (100), JonSnow (50), Sansa (60), Drogon (50), Bran (60), Tormund (75), Pycelle (80)}  (size=13) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Hound"
+
+Current patient queue:
+{Tywin (30), NightKing (38), Oberyn (69), Catelyn (45), Brienne (40), Tormund (75), Jamie (100), JonSnow (50), Sansa (60), Drogon (50), Bran (60), Pycelle (80)}  (size=12) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Tywin" with priority 30
+
+Current patient queue:
+{Tywin (30), NightKing (38), Oberyn (69), Catelyn (45), Brienne (40), Tormund (75), Jamie (100), JonSnow (50), Sansa (60), Drogon (50), Bran (60), Pycelle (80)}  (size=12) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Tywin"
+
+Current patient queue:
+{NightKing (38), Brienne (40), Oberyn (69), Catelyn (45), Drogon (50), Tormund (75), Jamie (100), JonSnow (50), Sansa (60), Pycelle (80), Bran (60)}  (size=11) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "NightKing" with priority 38
+
+Current patient queue:
+{NightKing (38), Brienne (40), Oberyn (69), Catelyn (45), Drogon (50), Tormund (75), Jamie (100), JonSnow (50), Sansa (60), Pycelle (80), Bran (60)}  (size=11) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "NightKing"
+
+Current patient queue:
+{Brienne (40), Catelyn (45), Oberyn (69), JonSnow (50), Drogon (50), Tormund (75), Jamie (100), Bran (60), Sansa (60), Pycelle (80)}  (size=10) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Brienne" with priority 40
+
+Current patient queue:
+{Brienne (40), Catelyn (45), Oberyn (69), JonSnow (50), Drogon (50), Tormund (75), Jamie (100), Bran (60), Sansa (60), Pycelle (80)}  (size=10) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Brienne"
+
+Current patient queue:
+{Catelyn (45), Drogon (50), Oberyn (69), JonSnow (50), Pycelle (80), Tormund (75), Jamie (100), Bran (60), Sansa (60)}  (size=9) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Catelyn" with priority 45
+
+Current patient queue:
+{Catelyn (45), Drogon (50), Oberyn (69), JonSnow (50), Pycelle (80), Tormund (75), Jamie (100), Bran (60), Sansa (60)}  (size=9) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Catelyn"
+
+Current patient queue:
+{Drogon (50), JonSnow (50), Oberyn (69), Bran (60), Pycelle (80), Tormund (75), Jamie (100), Sansa (60)}  (size=8) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Drogon" with priority 50
+
+Current patient queue:
+{Drogon (50), JonSnow (50), Oberyn (69), Bran (60), Pycelle (80), Tormund (75), Jamie (100), Sansa (60)}  (size=8) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Drogon"
+
+Current patient queue:
+{JonSnow (50), Bran (60), Oberyn (69), Sansa (60), Pycelle (80), Tormund (75), Jamie (100)}  (size=7) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "JonSnow" with priority 50
+
+Current patient queue:
+{JonSnow (50), Bran (60), Oberyn (69), Sansa (60), Pycelle (80), Tormund (75), Jamie (100)}  (size=7) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "JonSnow"
+
+Current patient queue:
+{Bran (60), Sansa (60), Oberyn (69), Jamie (100), Pycelle (80), Tormund (75)}  (size=6) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Bran" with priority 60
+
+Current patient queue:
+{Bran (60), Sansa (60), Oberyn (69), Jamie (100), Pycelle (80), Tormund (75)}  (size=6) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Bran"
+
+Current patient queue:
+{Sansa (60), Tormund (75), Oberyn (69), Jamie (100), Pycelle (80)}  (size=5) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Sansa" with priority 60
+
+Current patient queue:
+{Sansa (60), Tormund (75), Oberyn (69), Jamie (100), Pycelle (80)}  (size=5) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Sansa"
+
+Current patient queue:
+{Oberyn (69), Tormund (75), Pycelle (80), Jamie (100)}  (size=4) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Oberyn" with priority 69
+
+Current patient queue:
+{Oberyn (69), Tormund (75), Pycelle (80), Jamie (100)}  (size=4) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Oberyn"
+
+Current patient queue:
+{Tormund (75), Jamie (100), Pycelle (80)}  (size=3) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Tormund" with priority 75
+
+Current patient queue:
+{Tormund (75), Jamie (100), Pycelle (80)}  (size=3) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Tormund"
+
+Current patient queue:
+{Pycelle (80), Jamie (100)}  (size=2) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Pycelle" with priority 80
+
+Current patient queue:
+{Pycelle (80), Jamie (100)}  (size=2) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Pycelle"
+
+Current patient queue:
+{Jamie (100)}  (size=1) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? p
+Front of queue is "Jamie" with priority 100
+
+Current patient queue:
+{Jamie (100)}  (size=1) (not empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? d
+Dequeued patient: "Jamie"
+
+Current patient queue:
+{}  (size=0) (empty)
+(E)nqueue, (D)equeue, (P)eek, (C)hange, c(L)ear, (B)ulk, (Q)uit? q
+
+Exiting.

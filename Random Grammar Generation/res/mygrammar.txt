@@ -1,0 +1,10 @@
+<address>::=<loc> <name>
+<loc>::=<street> <loctype> <postcode>
+<street>::=<stname> <sttype>
+<stname>::=Oak|University|Hill|Kensington|Exhibition|Prince|Cromwell|Queen
+<sttype>::=Rd|St|Ave
+<loctype>::=rural|urban
+<postcode>::=<letter> <letter> <digit> <digit> <digit>|<digit> <digit> <digit> <digit> <digit>
+<letter>::=A|B|C|E|G|H|J|K|L|M|N|P|R|S|T|V|W|X|Y|Z
+<digit>::=1|2|3|4|5|6|7|8|9|0
+<name>::=Celine|Echo|Steven|John|Matthew|Flora|Clotilde|Cindy

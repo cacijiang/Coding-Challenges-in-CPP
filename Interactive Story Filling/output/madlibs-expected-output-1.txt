@@ -1,0 +1,39 @@
+Welcome to CS 106B Mad Libs!
+I will ask you to provide various words
+and phrases to fill in a story.
+At the end, I will display your story to you.
+
+Mad Lib input file? tarzan.txt
+
+Please type an adjective: silly
+Please type a plural noun: apples
+Please type a noun: frisbee
+Please type an adjective: hungry
+Please type a place: San Jose
+Please type a plural noun: bees
+Please type a noun: umbrella
+Please type a funny noise: burp
+Please type an adjective: shiny
+Please type a noun: jelly donut
+Please type an adjective: beautiful
+Please type a plural noun: spoons
+Please type a person's name: Keanu Reeves
+
+Your Mad Lib story:
+One of the most silly characters in fiction is named
+"Tarzan of the apples." Tarzan was raised by an old
+frisbee and lives in the hungry jungle in the
+heart of darkest San Jose. He spends most of his time
+eating bees and swinging from tree to umbrella.
+Whenever he gets angry, he beats on his chest and says,
+"burp!" This is his war cry. Tarzan always dresses in
+shiny shorts made from the skin of his jelly donut
+and his best friend is the beautiful chimpanzee named
+Cheetah. He is supposed to be able to speak to elephants and
+spoons. In the movies, Tarzan is played by Keanu Reeves.
+
+13 placeholder(s) replaced.
+Do another Mad Lib (Y/N)? n
+
+Mad Lib stories you created: 1
+Total placeholders replaced: 13 (13.0 per story)

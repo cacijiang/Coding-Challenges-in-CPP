@@ -1,0 +1,142 @@
+Welcome to CS 106B Boggle!
+This game is a search for words on a 2-D board of letter cubes.
+The good news is that you might improve your vocabulary a bit.
+The bad news is that you're probably going to lose miserably to
+this little dictionary-toting hunk of silicon.
+If only YOU had 16 gigs of RAM!
+
+Press Enter to begin the game ...
+
+Generate a random board? what?
+Please type a word that starts with 'Y' or 'N'.
+Generate a random board? i dont get it
+Please type a word that starts with 'Y' or 'N'.
+Generate a random board? okay
+Please type a word that starts with 'Y' or 'N'.
+Generate a random board? N
+Type the 16 letters on the board: ABCDEF
+Invalid board string. Try again.
+Type the 16 letters on the board: lol bad board
+Invalid board string. Try again.
+Type the 16 letters on the board: ABCDEFGHIJKLMNOP
+ABCD
+EFGH
+IJKL
+MNOP
+
+It's your turn!
+Your words: {}
+Your score: 0
+Type a word (or Enter to stop): FOO
+That word is not found in the dictionary.
+Type a word (or Enter to stop): FINK
+You found a new word! "FINK"
+
+Your words: {"FINK"}
+Your score: 1
+Type a word (or Enter to stop): GLOP
+You found a new word! "GLOP"
+
+Your words: {"FINK", "GLOP"}
+Your score: 2
+Type a word (or Enter to stop): GIRL
+That word can't be formed on this board.
+Your words: {"FINK", "GLOP"}
+Your score: 2
+Type a word (or Enter to stop): MINK
+You found a new word! "MINK"
+
+Your words: {"FINK", "GLOP", "MINK"}
+Your score: 3
+Type a word (or Enter to stop): MINKS
+That word can't be formed on this board.
+Your words: {"FINK", "GLOP", "MINK"}
+Your score: 3
+Type a word (or Enter to stop): MINKL
+That word is not found in the dictionary.
+Type a word (or Enter to stop): KNIFE
+You found a new word! "KNIFE"
+
+Your words: {"FINK", "GLOP", "KNIFE", "MINK"}
+Your score: 5
+Type a word (or Enter to stop): JINK
+You found a new word! "JINK"
+
+Your words: {"FINK", "GLOP", "JINK", "KNIFE", "MINK"}
+Your score: 6
+Type a word (or Enter to stop):
+
+It's my turn!
+My words: {"FINO", "KNOP", "PLONK"}
+My score: 4
+WOW, you defeated me! Congratulations!
+
+Play again? maybe
+Please type a word that starts with 'Y' or 'N'.
+Play again? leave me alone!
+Please type a word that starts with 'Y' or 'N'.
+Play again? Y
+
+Generate a random board? N
+Type the 16 letters on the board: EAARLVTSRAANOISE
+EAAR
+LVTS
+RAAN
+OISE
+
+It's your turn!
+Your words: {}
+Your score: 0
+Type a word (or Enter to stop): STAR
+You found a new word! "STAR"
+
+Your words: {"STAR"}
+Your score: 1
+Type a word (or Enter to stop): EAVE
+You found a new word! "EAVE"
+
+Your words: {"EAVE", "STAR"}
+Your score: 2
+Type a word (or Enter to stop): LARVA
+You found a new word! "LARVA"
+
+Your words: {"EAVE", "LARVA", "STAR"}
+Your score: 4
+Type a word (or Enter to stop): SEEN
+That word can't be formed on this board.
+Your words: {"EAVE", "LARVA", "STAR"}
+Your score: 4
+Type a word (or Enter to stop): LEAVE
+That word can't be formed on this board.
+Your words: {"EAVE", "LARVA", "STAR"}
+Your score: 4
+Type a word (or Enter to stop): RATE
+That word can't be formed on this board.
+Your words: {"EAVE", "LARVA", "STAR"}
+Your score: 4
+Type a word (or Enter to stop): ENTASIAS
+You found a new word! "ENTASIAS"
+
+Your words: {"EAVE", "ENTASIAS", "LARVA", "STAR"}
+Your score: 15
+Type a word (or Enter to stop): AVATARS
+You found a new word! "AVATARS"
+
+Your words: {"AVATARS", "EAVE", "ENTASIAS", "LARVA", "STAR"}
+Your score: 20
+Type a word (or Enter to stop): VELARIA
+You found a new word! "VELARIA"
+
+Your words: {"AVATARS", "EAVE", "ENTASIAS", "LARVA", "STAR", "VELARIA"}
+Your score: 25
+Type a word (or Enter to stop):
+
+It's my turn!
+My words: {"ALAE", "ALAR", "ALAS", "ANES", "ANSA", "ANTA", "ANTAE", "ANTAS", "ANTRA", "ANTS", "ARIA", "ARIAS", "ARISE", "ARISEN", "ARTAL", "ARTS", "ARVAL", "ASEA", "ASTASIA", "AVAST", "AVATAR", "EAST", "EATS", "ENTASIA", "LAIR", "LARI", "LARIAT", "LARIATS", "LARIS", "LARVAE", "LARVAS", "LASE", "LATS", "LAVA", "LAVAS", "LAVE", "LEVA", "LEVANT", "LEVANTS", "NAIRA", "NASAL", "NASIAL", "NATAL", "NAVAL", "NAVAR", "NAVARS", "NAVE", "NAVEL", "NEAT", "NEATS", "OATS", "ORAL", "ORLE", "RAIA", "RAIAS", "RAISE", "RALE", "RASE", "RATAL", "RATAN", "RATANS", "RATS", "RAVE", "RAVEL", "RIAL", "RIANT", "RIAS", "RIATA", "RIATAS", "RISE", "RISEN", "SALE", "SALVE", "SANE", "SANES", "SANS", "SANSAR", "SARI", "SAVANT", "SAVANTS", "SAVE", "SEAS", "SEAT", "SEATS", "SENSA", "SENT", "SIAL", "STAIR", "STALE", "STANE", "STANES", "STARVE", "STAVE", "TAEL", "TALA", "TALAR", "TALARIA", "TALAS", "TALE", "TANS", "TARO", "TARS", "TRAVE", "TRAVEL", "TSAR", "VAIR", "VALE", "VANE", "VANES", "VANS", "VARIA", "VARIANT", "VARIANTS", "VARS", "VASA", "VASAL", "VASE", "VAST", "VATS", "VEAL", "VELA", "VELAR"}
+My score: 230
+Ha ha ha, I destroyed you. Better luck next time, puny human!
+
+Play again? possibly
+Please type a word that starts with 'Y' or 'N'.
+Play again? N
+Have a nice day.

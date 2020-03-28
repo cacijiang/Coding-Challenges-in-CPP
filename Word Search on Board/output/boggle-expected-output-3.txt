@@ -1,0 +1,112 @@
+Welcome to CS 106B Boggle!
+This game is a search for words on a 2-D board of letter cubes.
+The good news is that you might improve your vocabulary a bit.
+The bad news is that you're probably going to lose miserably to
+this little dictionary-toting hunk of silicon.
+If only YOU had 16 gigs of RAM!
+
+Press Enter to begin the game ...
+
+Generate a random board? N
+Type the 16 letters on the board: ABDDRCSIIMINSETA
+ABDD
+RCSI
+IMIN
+SETA
+
+It's your turn!
+Your words: {}
+Your score: 0
+Type a word (or Enter to stop): DISCRIMINATE
+You found a new word! "DISCRIMINATE"
+
+Your words: {"DISCRIMINATE"}
+Your score: 11
+Type a word (or Enter to stop):
+
+It's my turn!
+My words: {"ABRI", "ABRIS", "ABSCISE", "ACINI", "ACME", "ACMES", "AIMS", "AINS", "ANIME", "ANIMES", "ANIMI", "ANIMIS", "ANIS", "ANISIC", "ANTE", "ANTES", "ANTI", "ANTIC", "ANTICS", "ANTIS", "ARBS", "ARCS", "ARISE", "ARMET", "ARMIES", "ARMS", "ATES", "BARIC", "BARM", "BARMIE", "BARMS", "BRIE", "BRIES", "BRIM", "BRIMS", "BRIS", "CABS", "CARB", "CARBS", "CARIES", "CITE", "CITES", "CRAB", "CRABS", "CRIES", "CRIME", "CRIMES", "CRIMINATE", "CRIMINATES", "CRIS", "DINS", "DINT", "DISBAR", "DISC", "DISCI", "DISCRIMINATES", "DISME", "DISMES", "EMIC", "EMIR", "EMIT", "ETIC", "ETNA", "INIA", "INTI", "INTIME", "INTIS", "ISBA", "ISMS", "ITEM", "ITEMS", "MESIC", "META", "METIS", "MICA", "MICRA", "MIES", "MINA", "MINI", "MINIS", "MINT", "MISDID", "MISE", "MITE", "MITES", "NATES", "NATIES", "NIES", "NIMS", "NISI", "RACISM", "RACISMS", "RICIN", "RICINS", "RIES", "RIME", "RIMES", "RIMS", "RISE", "SCAB", "SCAR", "SCRIM", "SCRIMS", "SEIS", "SEISIN", "SEISM", "SEISMIC", "SEMI", "SEMINA", "SEMIS", "SETA", "SICS", "SIES", "SIMIAN", "SIMIANS", "SIMS", "SITE", "SITES", "SMIT", "SMITE", "SMITES", "SNIT", "TAIN", "TAINS", "TANS", "TANSIES", "TEIID", "TEIIDS", "TICS", "TIES", "TIME", "TIMES", "TINS"}
+My score: 264
+Ha ha ha, I destroyed you. Better luck next time, puny human!
+
+Play again? Y
+
+Generate a random board? N
+Type the 16 letters on the board: BZZZZOZZZZAZZZT
+Invalid board string. Try again.
+Type the 16 letters on the board: BOAT
+Invalid board string. Try again.
+Type the 16 letters on the board:
+Invalid board string. Try again.
+Type the 16 letters on the board: Y
+Invalid board string. Try again.
+Type the 16 letters on the board: N
+Invalid board string. Try again.
+Type the 16 letters on the board: zzarzztszzzzzzzz
+ZZAR
+ZZTS
+ZZZZ
+ZZZZ
+
+It's your turn!
+Your words: {}
+Your score: 0
+Type a word (or Enter to stop): star
+You found a new word! "STAR"
+
+Your words: {"STAR"}
+Your score: 1
+Type a word (or Enter to stop): rats
+You found a new word! "RATS"
+
+Your words: {"RATS", "STAR"}
+Your score: 2
+Type a word (or Enter to stop): tars
+You found a new word! "TARS"
+
+Your words: {"RATS", "STAR", "TARS"}
+Your score: 3
+Type a word (or Enter to stop): sart
+That word is not found in the dictionary.
+Type a word (or Enter to stop): stra
+That word is not found in the dictionary.
+Type a word (or Enter to stop): zzzz
+That word is not found in the dictionary.
+Type a word (or Enter to stop): arts
+You found a new word! "ARTS"
+
+Your words: {"ARTS", "RATS", "STAR", "TARS"}
+Your score: 4
+Type a word (or Enter to stop):
+
+It's my turn!
+My words: {"RAZZ", "TSAR", "TZAR", "TZARS"}
+My score: 5
+Ha ha ha, I destroyed you. Better luck next time, puny human!
+
+Play again? Y
+
+Generate a random board? N
+Type the 16 letters on the board: tetzszzzzzzzzzzz
+TETZ
+SZZZ
+ZZZZ
+ZZZZ
+
+It's your turn!
+Your words: {}
+Your score: 0
+Type a word (or Enter to stop): TesT
+You found a new word! "TEST"
+
+Your words: {"TEST"}
+Your score: 1
+Type a word (or Enter to stop):
+
+It's my turn!
+My words: {"STET", "TETS", "ZEST"}
+My score: 3
+Ha ha ha, I destroyed you. Better luck next time, puny human!
+
+Play again? N
+Have a nice day.

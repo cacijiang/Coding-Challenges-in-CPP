@@ -1,0 +1,67 @@
+Welcome to CS 106B/X Shrink-It!
+This program uses the Huffman coding algorithm for compression.
+Any type of file can be encoded using a Huffman code.
+Decompressing the result will faithfully reproduce the original.
+The compression achieved can be substantial for large files of 
+homogenous content. (Smaller, heterogenous files see less/no benefit.)
+
+MAIN MENU
+1) test build character frequency table
+2) test build encoding tree
+3) test build encoding map
+4) test flatten/recreate encoding tree header
+
+C) compress file
+D) decompress file
+
+H) view contents of huffman file
+T) view contents of text file
+S) side-by-side file comparison
+Q) quit
+
+Your choice? 1
+Read from a s)tring or f)ile? f
+File name to process: seuss.txt
+Building frequency table ...
+'\n' (Ascii  10) =>     168
+ ' ' (Ascii  32) =>     672
+ 'I' (Ascii  73) =>      84
+ 'S' (Ascii  83) =>      18
+ 'a' (Ascii  97) =>     210
+ 'b' (Ascii  98) =>      14
+ 'c' (Ascii  99) =>      21
+ 'd' (Ascii 100) =>     111
+ 'e' (Ascii 101) =>     282
+ 'f' (Ascii 102) =>       8
+ 'g' (Ascii 103) =>      39
+ 'h' (Ascii 104) =>     145
+ 'i' (Ascii 105) =>     140
+ 'k' (Ascii 107) =>      54
+ 'l' (Ascii 108) =>     131
+ 'm' (Ascii 109) =>     121
+ 'n' (Ascii 110) =>     190
+ 'o' (Ascii 111) =>     255
+ 'r' (Ascii 114) =>      86
+ 's' (Ascii 115) =>      41
+ 't' (Ascii 116) =>     248
+ 'u' (Ascii 117) =>      90
+ 'w' (Ascii 119) =>      74
+ 'x' (Ascii 120) =>      14
+ 'y' (Ascii 121) =>      57
+
+MAIN MENU
+1) test build character frequency table
+2) test build encoding tree
+3) test build encoding map
+4) test flatten/recreate encoding tree header
+
+C) compress file
+D) decompress file
+
+H) view contents of huffman file
+T) view contents of text file
+S) side-by-side file comparison
+Q) quit
+
+Your choice? q
+Exiting.
